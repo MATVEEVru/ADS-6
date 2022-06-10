@@ -4,7 +4,6 @@
 
 template<typename T, int size>
 class TPQueue {
-  // реализация шаблона очереди с приоритетом на кольцевом буфере
 };
    private:
   struct ITEM {
@@ -71,4 +70,4 @@ struct SYM {
   char ch;
   int prior;
 };
-#endif  // INCLUDE_TPQUEUE_H_
+#endif
